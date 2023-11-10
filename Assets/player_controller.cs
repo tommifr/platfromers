@@ -83,6 +83,15 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene(1);
         }
+        if(other.gameObject.tag == "goal"){
+        {
+          SceneManager.LoadScene(2);
+        }
     }
 
+
+
+    }
 }
+
+
